@@ -44,7 +44,11 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=adi-who&theme=tokyonight" alt="adi-who's streak stats" />
 </div>
 
->
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=adi-who&theme=tokyo-night&hide_border=true" alt="Contribution Activity Graph" />
+</div>
+
+> 💡 **Note:** Streaks and the activity graph need your GitHub contribution data to be public (Settings → Contributions & Activity) or these widgets may show as empty. If the activity graph occasionally fails to load, it's shared-server congestion on the free hosted instance — a page refresh usually fixes it.
 
 ---
 
