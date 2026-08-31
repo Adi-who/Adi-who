@@ -31,24 +31,8 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GH_PAT }}
 
-      # One block per pinned project. Duplicate this block and change
-      # "repo=" and the output path for each project you want to feature.
-      - name: Generate pinned card - my-portfolio
-        uses: stats-organization/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: "repo=my-portfolio&theme=tokyonight"
-          path: path: profile/pin-my-portfolio.svg
-          token: ${{ secrets.GH_PAT }}
-
-      - name: Generate pinned card - my-portfolio
-        uses: stats-organization/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: "repo=my-portfolio&theme=tokyonight"
-          path: profile/pin-my-portfolio.svg
-          token: ${{ secrets.GH_PAT }}
-
+      # One block per pinned project. To feature more projects, duplicate
+      # this block and change the name, "repo=" value, and path for each.
       - name: Generate pinned card - my-portfolio
         uses: stats-organization/github-readme-stats-action@v1
         with:
