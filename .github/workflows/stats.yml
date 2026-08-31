@@ -37,24 +37,24 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: pin
-          options: "repo=repo-one&theme=tokyonight"
-          path: profile/pin-repo-one.svg
+          options: "repo=my-portfolio&theme=tokyonight"
+          path: path: profile/pin-my-portfolio.svg
           token: ${{ secrets.GH_PAT }}
 
       - name: Generate pinned card - repo two
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: pin
-          options: "repo=repo-two&theme=tokyonight"
-          path: profile/pin-repo-two.svg
+          options: "repo=my-portfolio&theme=tokyonight"
+          path: profile/pin-my-portfolio.svg
           token: ${{ secrets.GH_PAT }}
 
       - name: Generate pinned card - repo three
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: pin
-          options: "repo=repo-three&theme=tokyonight"
-          path: profile/pin-repo-three.svg
+          options: "repo=my-portfolio&theme=tokyonight"
+          path: profile/pin-my-portfolio.svg
           token: ${{ secrets.GH_PAT }}
 
       - name: Commit generated SVGs
