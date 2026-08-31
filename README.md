@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=Frontend+Developer;Crafting+the+web%2C+one+line+at+a+time;Open+to+collaborating+on+web+projects" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aditya+%F0%9F%95%B7%EF%B8%8F;Frontend+Developer+%F0%9F%92%BB;Turning+ideas+into+interfaces+%F0%9F%8E%A8;Open+to+collaborating+on+web+projects+%F0%9F%A4%9D" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=adi-who&label=Profile%20Views&color=0e75b6&style=flat" alt="adi-who profile views" />
 
