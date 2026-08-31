@@ -35,8 +35,8 @@
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=adi-who&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="adi-who's GitHub stats" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=adi-who&layout=compact&theme=tokyonight" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=adi-who&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="adi-who's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adi-who&layout=compact&theme=tokyonight" alt="Top Languages" />
 
 </div>
 
@@ -57,19 +57,19 @@
 <div align="center">
 
 <a href="https://github.com/Adi-who/repo-one">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=adi-who&repo=repo-one&theme=tokyonight" alt="Project One" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adi-who&repo=repo-one&theme=tokyonight" alt="Project One" />
 </a>
 <a href="https://github.com/Adi-who/repo-two">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=adi-who&repo=repo-two&theme=tokyonight" alt="Project Two" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adi-who&repo=repo-two&theme=tokyonight" alt="Project Two" />
 </a>
 <br/>
 <a href="https://github.com/Adi-who/repo-three">
-  <img src="https://github-stats-extended.vercel.app/api/pin/?username=adi-who&repo=repo-three&theme=tokyonight" alt="Project Three" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adi-who&repo=repo-three&theme=tokyonight" alt="Project Three" />
 </a>
 
 </div>
 
-> ✏️ Replace `repo-one`, `repo-two`, `repo-three` above with your actual repository names — the cards will automatically pull live stars, forks, and language stats. You can also generate this exact layout visually at [github-stats-extended.vercel.app/api/pin](https://github-stats-extended.vercel.app/api/pin).
+> ✏️ Replace `repo-one`, `repo-two`, `repo-three` above with your actual repository names — the cards will automatically pull live stars, forks, and language stats. You can also generate this exact layout visually at [github-readme-stats.vercel.app/api/pin](https://github-readme-stats.vercel.app/api/pin).
 
 ---
 
