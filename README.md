@@ -1,8 +1,10 @@
-<div align="center">
+from pathlib import Path
 
-👋 Hi, I'm Aditya
+readme = r'''<div align="center">
 
-🚀 Frontend Developer • Web Enthusiast • Lifelong Learner
+# 👋 Hi, I'm Aditya
+
+### 🚀 Frontend Developer • Web Enthusiast • Lifelong Learner
 
 <p>
   <a href="https://github.com/Adi-who">
@@ -12,33 +14,26 @@
     <img src="https://img.shields.io/github/followers/adi-who?label=Followers&style=for-the-badge&color=181717" alt="GitHub Followers" />
   </a>
   <a href="https://github.com/Adi-who?tab=repositories">
-    <img src="https://img.shields.io/github/repos/adi-who?label=Repositories&style=for-the-badge&color=0e75b6" alt="Repositories" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/Adi-who">
-    <img src="https://img.shields.io/github/created-at/adi-who?label=GitHub%20Since&style=for-the-badge&color=6f42c1" alt="GitHub Since" />
+    <img src="https://img.shields.io/badge/Repositories-View-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
   </a>
 </p>
 
 </div>
 
-🧑‍💻 About Me
+---
 
-🔭 Currently working on my Personal Portfolio Website
+## 🧑‍💻 About Me
 
-🌱 Currently learning JavaScript, React, Git & GitHub
+- 🔭 Currently working on **my Personal Portfolio Website**
+- 🌱 Currently learning **JavaScript, React, Git & GitHub**
+- 💬 Ask me about **HTML, CSS, JavaScript & Frontend Development**
+- 👯 Open to collaborating on **Open Source & Web Development Projects**
+- 🎯 Goal: **Build useful, clean and beautiful web experiences**
+- ⚡ Fun fact: **I love turning ideas into websites 💻**
 
-💬 Ask me about HTML, CSS, JavaScript & Frontend Development
+---
 
-👯 Open to collaborating on Open Source & Web Development Projects
-
-🎯 Goal: Build useful, clean and beautiful web experiences
-
-⚡ Fun fact: I love turning ideas into websites 💻
-
-🛠️ Languages & Tools
+## 🛠️ Languages & Tools
 
 <div align="center">
 
@@ -60,50 +55,54 @@
 
 </div>
 
-📊 GitHub Analytics
+---
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
 <a href="https://github.com/Adi-who">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=adi-who&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=tokyonight&hide_border=true" alt="Aditya's GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=adi-who&show_icons=true&include_all_commits=true&rank_icon=github&theme=tokyonight&hide_border=true&custom_title=GitHub%20Stats" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/Adi-who">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adi-who&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adi-who&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=Top%20Languages" alt="Top Languages" />
 </a>
 
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=adi-who&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak" />
-
-</div>
-
-📈 Contribution Activity
-
-<div align="center">
+<br><br>
 
 <a href="https://github.com/Adi-who">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adi-who&theme=tokyo-night&hide_border=true&area=true&custom_title=Aditya%27s%20Contribution%20Graph" alt="Contribution Activity Graph" />
+  <img width="70%" src="https://streak-stats.demolab.com/?user=adi-who&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak" />
 </a>
 
 </div>
 
-🏆 GitHub Achievements
+---
+
+## 📈 Contribution Activity
 
 <div align="center">
 
 <a href="https://github.com/Adi-who">
-  <img src="https://github-profile-trophy.vercel.app/?username=adi-who&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub Trophies" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=adi-who&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 </a>
 
 </div>
 
-🚀 Featured Projects
+---
 
-📌 Tip: Pin your best repositories on your GitHub profile. As your projects grow, replace the links below with your strongest work.
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+<a href="https://github.com/Adi-who">
+  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=adi-who&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub Trophies" />
+</a>
+
+</div>
+
+---
+
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -111,27 +110,28 @@
 <tr>
 <td width="50%" align="center">
 
-🌐 Personal Portfolio
+### 🌐 Personal Portfolio
 
-A modern portfolio showcasing my projects, skills and journey as a developer.
+A modern portfolio showcasing my projects, skills and developer journey.
 
-Status: 🚧 In Progress
+**🚧 In Progress**
 
 <a href="https://github.com/Adi-who?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Projects"/>
+  <img src="https://img.shields.io/badge/Explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore Projects"/>
 </a>
 
 </td>
+
 <td width="50%" align="center">
 
-💻 Web Development
+### 💻 Web Development
 
 A growing collection of frontend and web development projects.
 
-Status: 🌱 Building
+**🌱 Building**
 
 <a href="https://github.com/Adi-who?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore%20Repositories-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Explore Repositories"/>
+  <img src="https://img.shields.io/badge/View%20Repositories-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories"/>
 </a>
 
 </td>
@@ -140,7 +140,11 @@ Status: 🌱 Building
 
 </div>
 
-📫 Let's Connect
+> 📌 **Featured projects will be updated as I build and publish more projects.**
+
+---
+
+## 📫 Connect With Me
 
 <div align="center">
 
@@ -156,10 +160,18 @@ Status: 🌱 Building
 
 </div>
 
+---
+
 <div align="center">
 
-💙 Thanks for visiting my profile!
+### 💙 Thanks for visiting my profile!
 
-"Turning ideas into websites, one commit at a time." 🚀
+**Turning ideas into websites, one commit at a time.** 🚀
 
 </div>
+'''
+
+path = Path("/mnt/data/README_FINAL_FIXED.md")
+path.write_text(readme, encoding="utf-8")
+print(f"Created: {path}")
+print(f"Lines: {len(readme.splitlines())}")
