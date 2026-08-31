@@ -44,7 +44,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=adi-who&theme=tokyonight" alt="adi-who's streak stats" />
 </div>
 
-> 💡 **Note:** Streaks need your GitHub contribution data to be public (Settings → Contributions & Activity) or this widget may show as empty. Your full day-by-day contribution graph already appears natively on your profile page just below this README, so it isn't duplicated here.
+>
 
 ---
 
