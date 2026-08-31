@@ -1,10 +1,8 @@
-from pathlib import Path
+<div align="center">
 
-readme = r'''<div align="center">
+👋 Hi, I'm Aditya
 
-# 👋 Hi, I'm Aditya
-
-### 🚀 Frontend Developer • Web Enthusiast • Lifelong Learner
+🚀 Frontend Developer • Web Enthusiast • Lifelong Learner
 
 <p>
   <a href="https://github.com/Adi-who">
@@ -26,20 +24,21 @@ readme = r'''<div align="center">
 
 </div>
 
----
+🧑‍💻 About Me
 
-## 🧑‍💻 About Me
+🔭 Currently working on my Personal Portfolio Website
 
-- 🔭 Currently working on **my Personal Portfolio Website**
-- 🌱 Currently learning **JavaScript, React, Git & GitHub**
-- 💬 Ask me about **HTML, CSS, JavaScript & Frontend Development**
-- 👯 Open to collaborating on **Open Source & Web Development Projects**
-- 🎯 Goal: **Build useful, clean and beautiful web experiences**
-- ⚡ Fun fact: **I love turning ideas into websites 💻**
+🌱 Currently learning JavaScript, React, Git & GitHub
 
----
+💬 Ask me about HTML, CSS, JavaScript & Frontend Development
 
-## 🛠️ Languages & Tools
+👯 Open to collaborating on Open Source & Web Development Projects
+
+🎯 Goal: Build useful, clean and beautiful web experiences
+
+⚡ Fun fact: I love turning ideas into websites 💻
+
+🛠️ Languages & Tools
 
 <div align="center">
 
@@ -61,9 +60,7 @@ readme = r'''<div align="center">
 
 </div>
 
----
-
-## 📊 GitHub Analytics
+📊 GitHub Analytics
 
 <div align="center">
 
@@ -84,9 +81,7 @@ readme = r'''<div align="center">
 
 </div>
 
----
-
-## 📈 Contribution Activity
+📈 Contribution Activity
 
 <div align="center">
 
@@ -96,9 +91,7 @@ readme = r'''<div align="center">
 
 </div>
 
----
-
-## 🏆 GitHub Achievements
+🏆 GitHub Achievements
 
 <div align="center">
 
@@ -108,11 +101,9 @@ readme = r'''<div align="center">
 
 </div>
 
----
+🚀 Featured Projects
 
-## 🚀 Featured Projects
-
-> 📌 **Tip:** Pin your best repositories on your GitHub profile. As your projects grow, replace the links below with your strongest work.
+📌 Tip: Pin your best repositories on your GitHub profile. As your projects grow, replace the links below with your strongest work.
 
 <div align="center">
 
@@ -120,11 +111,11 @@ readme = r'''<div align="center">
 <tr>
 <td width="50%" align="center">
 
-### 🌐 Personal Portfolio
+🌐 Personal Portfolio
 
 A modern portfolio showcasing my projects, skills and journey as a developer.
 
-**Status:** 🚧 In Progress
+Status: 🚧 In Progress
 
 <a href="https://github.com/Adi-who?tab=repositories">
   <img src="https://img.shields.io/badge/View%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Projects"/>
@@ -133,11 +124,11 @@ A modern portfolio showcasing my projects, skills and journey as a developer.
 </td>
 <td width="50%" align="center">
 
-### 💻 Web Development
+💻 Web Development
 
 A growing collection of frontend and web development projects.
 
-**Status:** 🌱 Building
+Status: 🌱 Building
 
 <a href="https://github.com/Adi-who?tab=repositories">
   <img src="https://img.shields.io/badge/Explore%20Repositories-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Explore Repositories"/>
@@ -149,9 +140,7 @@ A growing collection of frontend and web development projects.
 
 </div>
 
----
-
-## 📫 Let's Connect
+📫 Let's Connect
 
 <div align="center">
 
@@ -167,17 +156,10 @@ A growing collection of frontend and web development projects.
 
 </div>
 
----
-
 <div align="center">
 
-### 💙 Thanks for visiting my profile!
+💙 Thanks for visiting my profile!
 
-**"Turning ideas into websites, one commit at a time."** 🚀
+"Turning ideas into websites, one commit at a time." 🚀
 
 </div>
-'''
-
-path = Path("/mnt/data/README_upgraded.md")
-path.write_text(readme, encoding="utf-8")
-print(path)
