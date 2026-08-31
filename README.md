@@ -1,4 +1,12 @@
-<div align="center">
+from pathlib import Path
+
+root = Path("/mnt/data/Adi-who-profile")
+workflow_dir = root / ".github" / "workflows"
+profile_dir = root / "profile"
+workflow_dir.mkdir(parents=True, exist_ok=True)
+profile_dir.mkdir(parents=True, exist_ok=True)
+
+readme = r'''<div align="center">
 
 # 👋 Hi, I'm Aditya
 
@@ -9,10 +17,7 @@
     <img src="https://komarev.com/ghpvc/?username=adi-who&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
   </a>
   <a href="https://github.com/Adi-who?tab=followers">
-    <img src="https://img.shields.io/github/followers/adi-who?label=Followers&style=for-the-badge&color=181717" alt="GitHub Followers" />
-  </a>
-  <a href="https://github.com/Adi-who?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-View-0e75b6?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+    <img src="https://img.shields.io/github/followers/adi-who?label=Followers&style=for-the-badge&color=181717" alt="Followers" />
   </a>
 </p>
 
@@ -80,8 +85,8 @@
 
 <div align="center">
 
-<a href="https://github.com/Adi-who">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=adi-who&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
+<a href="https://github.com/Adi-who/Adi-who/actions/workflows/profile-assets.yml">
+  <img width="95%" src="https://raw.githubusercontent.com/Adi-who/Adi-who/output/activity-graph.svg" alt="GitHub Contribution Activity Graph" />
 </a>
 
 </div>
@@ -93,7 +98,7 @@
 <div align="center">
 
 <a href="https://github.com/Adi-who">
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=adi-who&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub Trophies" />
+  <img width="95%" src="profile/trophy.svg" alt="GitHub Trophies" />
 </a>
 
 </div>
@@ -138,8 +143,6 @@ A growing collection of frontend and web development projects.
 
 </div>
 
-> 📌 **Featured projects will be updated as I build and publish more projects.**
-
 ---
 
 ## 📫 Connect With Me
@@ -169,7 +172,74 @@ A growing collection of frontend and web development projects.
 </div>
 '''
 
-path = Path("/mnt/data/README_FINAL_FIXED.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}")
-print(f"Lines: {len(readme.splitlines())}")
+workflow = r'''name: Update Profile Graphs
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: "theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish activity graph to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate GitHub trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: "username=${{ github.repository_owner }}&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10"
+          path: profile/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit trophy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/trophy.svg
+          git commit -m "chore: update profile trophy" || exit 0
+          git push
+'''
+
+(root / "README.md").write_text(readme, encoding="utf-8")
+(workflow_dir / "profile-assets.yml").write_text(workflow, encoding="utf-8")
+
+# Create a simple instruction file too.
+instructions = """# Adi-who GitHub Profile
+
+Copy `README.md` and `.github/workflows/profile-assets.yml` into your profile repository:
+
+    Adi-who/Adi-who
+
+The workflow generates the contribution activity graph and trophy SVG automatically.
+After pushing the files, open GitHub -> Actions -> Update Profile Graphs -> Run workflow once.
+"""
+(root / "SETUP.txt").write_text(instructions, encoding="utf-8")
+
+# Zip everything for easy upload.
+import shutil
+zip_path = shutil.make_archive("/mnt/data/Adi-who-profile-fixed", "zip", root)
+print(zip_path)
+print(root / "README.md")
+print(workflow_dir / "profile-assets.yml")
