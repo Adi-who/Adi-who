@@ -56,20 +56,13 @@
 
 <div align="center">
 
-<a href="https://github.com/Adi-who/repo-one">
-  <img src="./profile/pin-repo-one.svg" alt="Project One" />
-</a>
-<a href="https://github.com/Adi-who/repo-two">
-  <img src="./profile/pin-repo-two.svg" alt="Project Two" />
-</a>
-<br/>
-<a href="https://github.com/Adi-who/repo-three">
-  <img src="./profile/pin-repo-three.svg" alt="Project Three" />
+<a href="https://github.com/Adi-who/my-portfolio">
+  <img src="./profile/pin-my-portfolio.svg" alt="my-portfolio" />
 </a>
 
 </div>
 
-> ✏️ Replace `repo-one`, `repo-two`, `repo-three` in `.github/workflows/stats.yml` with your actual repository names (both in the `repo=` option and the output filename), then re-run the workflow. These cards now render from files generated inside your own repo — see setup steps below.
+> ✏️ Want to feature more projects? Duplicate the pin block in `.github/workflows/stats.yml` for each repo (new `name`, `repo=`, and `path`), add a matching `<img>` tag above, then re-run the workflow.
 
 ---
 
