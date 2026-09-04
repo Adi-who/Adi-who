@@ -24,7 +24,7 @@ Student and frontend developer building modern, responsive web experiences. I ca
 
 ## Now
 
-- Building my [personal portfolio](https://adi-who.github.io)
+- Shipping frontend projects: [portfolio](https://adi-who.github.io) and [CodeSnap](https://adi-who.github.io/CodeSnap/)
 - Learning JavaScript, React, Git, GitHub, and Next.js
 - Looking to collaborate on open source and web development projects
 - Ask me about HTML, CSS, JavaScript, and frontend development
@@ -34,7 +34,7 @@ Student and frontend developer building modern, responsive web experiences. I ca
 | Project | What it is |
 | --- | --- |
 | [Portfolio](https://adi-who.github.io) · [source](https://github.com/Adi-who/Adi-who.github.io/tree/source) | Personal site — React, TypeScript, Vite, Tailwind, Motion |
-| [CodeSnap](https://github.com/Adi-who/CodeSnap) | Create beautiful, customizable code screenshots |
+| [CodeSnap](https://adi-who.github.io/CodeSnap/) · [source](https://github.com/Adi-who/CodeSnap) | Create beautiful, customizable code screenshots |
 
 ## Stack
 
