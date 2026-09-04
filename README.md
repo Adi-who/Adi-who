@@ -14,7 +14,7 @@
     &nbsp;&nbsp;
     <a href="https://instagram.com/v27adi" title="Instagram"><img src="https://cdn.simpleicons.org/instagram/70a5fd" height="28" alt="Instagram" /></a>
     &nbsp;&nbsp;
-    <a href="mailto:adityasinghhzb2005@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/70a5fd" height="28" alt="Email" /></a>
+    <a href="mailto:iamadityakumar.dev@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/70a5fd" height="28" alt="Email" /></a>
   </p>
 </div>
 
@@ -61,5 +61,5 @@ Student and frontend developer building modern, responsive web experiences. I ca
   &nbsp;&nbsp;
   <a href="https://instagram.com/v27adi" title="Instagram"><img src="https://cdn.simpleicons.org/instagram/70a5fd" height="28" alt="Instagram" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:adityasinghhzb2005@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/70a5fd" height="28" alt="Email" /></a>
+  <a href="mailto:iamadityakumar.dev@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/70a5fd" height="28" alt="Email" /></a>
 </p>
