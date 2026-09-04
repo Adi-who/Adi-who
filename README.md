@@ -1,97 +1,55 @@
 <div align="center">
+  <img src="https://avatars.githubusercontent.com/u/323292766?v=4" width="112" height="112" alt="Aditya Kumar" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aditya+%F0%9F%95%B7%EF%B8%8F;Frontend+Developer+%F0%9F%92%BB;Turning+ideas+into+interfaces+%F0%9F%8E%A8;Open+to+collaborating+on+web+projects+%F0%9F%A4%9D" alt="Typing SVG" />
+  # Aditya Kumar
 
-<img src="https://komarev.com/ghpvc/?username=adi-who&label=Profile%20Views&color=0e75b6&style=flat" alt="adi-who profile views" />
+  **Frontend Developer · India**
 
+  Turning ideas into interfaces.
+
+  [Portfolio](https://adi-who.github.io) ·
+  [X](https://x.com/AdiXplores) ·
+  [Instagram](https://instagram.com/v27adi) ·
+  [Email](mailto:adityasinghhzb2005@gmail.com)
 </div>
 
 ---
 
-### 🚀 About Me
+Student and frontend developer building modern, responsive web experiences. I care about interfaces that feel considered, not decorated.
 
-- 🔭 Currently working on **Personal Portfolio Website**
-- 🌱 Currently learning **JavaScript, React, Git & GitHub**
-- 👯 Looking to collaborate on **[Open Source & Web Development Projects](https://github.com/Adi-who)**
-- 🤝 Looking for help with **Advanced Web Development**
-- 👨‍💻 All my projects are available at **[github.com/Adi-who](https://github.com/Adi-who)**
-- 📝 I regularly write articles on **Coming Soon 🚀**
-- 💬 Ask me about **HTML, CSS, JavaScript & Frontend Development**
-- 📫 Reach me at **adityasinghhzb2005@gmail.com**
-- 📄 My experience: **Coming Soon 🚀**
-- ⚡ Fun fact: **I love turning ideas into websites 💻**
+## Now
 
----
+- Building my [personal portfolio](https://adi-who.github.io)
+- Learning JavaScript, React, Git, GitHub, and Next.js
+- Looking to collaborate on open source and web development projects
+- Ask me about HTML, CSS, JavaScript, and frontend development
 
-### 🏆 GitHub Trophies
+## Work
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=adi-who&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="adi-who trophies" />
-</div>
+| Project | What it is |
+| --- | --- |
+| [Portfolio](https://adi-who.github.io) · [source](https://github.com/Adi-who/Adi-who.github.io/tree/source) | Personal site — React, TypeScript, Vite, Tailwind, Motion |
 
----
+More public work is on the way.
 
-### 📊 GitHub Analytics
+## Stack
 
-<div align="center">
+**Languages:** C · C++ · Java · JavaScript · Python  
+**Frontend:** HTML5 · CSS3 · React  
+**Tools:** Git · GitHub · VS Code  
+**Learning:** Next.js · Advanced JavaScript · GSAP
 
-<img height="165" src="./profile/stats.svg" alt="adi-who's GitHub stats" />
-<img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
-
-</div>
+## GitHub
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adi-who&theme=tokyonight" alt="adi-who's streak stats" />
+  <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="165" src="./profile/top-langs.svg" alt="Top languages" />
 </div>
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adi-who&theme=tokyo-night&hide_border=true" alt="Contribution Activity Graph" />
-</div>
+## Contact
 
----
-
-### 🌟 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Adi-who/my-portfolio">
-  <img src="./profile/pin-my-portfolio.svg" alt="my-portfolio" />
-</a>
-
-</div>
-
-> ✏️ Want to feature more projects? Duplicate the pin block in `.github/workflows/stats.yml` for each repo (new `name`, `repo=`, and `path`), add a matching `<img>` tag above, then re-run the workflow.
-
----
-
-### 🛠️ Languages & Tools
-
-<p align="left">
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/></a>
-<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/></a>
-<a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-<a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/></a>
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
-<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/></a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
-</p>
-
----
-
-### 🤝 Connect with Me
-
-<p align="left">
-<a href="https://instagram.com/v27adi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="v27adi" height="30" width="40" /></a>
-<a href="mailto:adityasinghhzb2005@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="email" height="30" width="40" /></a>
-</p>
-
-<div align="center">
-<sub>⭐ If you like what you see, consider starring some of my repos!</sub>
-</div>
+- Portfolio: [adi-who.github.io](https://adi-who.github.io)
+- GitHub: [@Adi-who](https://github.com/Adi-who)
+- X: [@AdiXplores](https://x.com/AdiXplores)
+- Instagram: [@v27adi](https://instagram.com/v27adi)
+- Email: [adityasinghhzb2005@gmail.com](mailto:adityasinghhzb2005@gmail.com)
